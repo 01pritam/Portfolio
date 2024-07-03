@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pritam Kumar | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Pritam</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Pritam</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Pritam Kumar</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/Resume.pdf')">
+            Download Resume
+          </button>
+          
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/pritam-k/'" />
+          <img src="./assets/github.png" alt="Github profile" class="icon" onclick="location.href='https://github.com/01pritam'" />
+        </div>
+      </div>
+      <div class="section__pic-container">
+        <img src="./assets/profile-1.png" alt="Pritam Kumar profile picture" />
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+              <h3>Experience</h3>
+              <p>"Teaching Assistance"<br/>Data Structures and Algorithms<br />April - June 2024</p>
+              <p>Coding Ninjas</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education icon" class="icon" />
+              <h3>Education</h3>
+              <p>"Computer Science and Business System"<br />B.Tech. Bachelor's Degree<br />2022 - 2026<br/>Heritage Institute of Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a passionate Frontend Developer with a strong foundation in computer science principles and a love for creating dynamic, user-friendly web applications. My experience as a teaching assistant has honed my skills in data structures and algorithms, and I continuously seek to learn and implement new technologies. Additionally, working at Coding Ninjas allowed me to assist over 250 students, enhancing my problem-solving and communication skills.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#experience'" />
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience & Skill Sets</h1>
+      <div class="experience-details-container">
+        <div class="skills">
+          <h2>HTML</h2>
+          <div class="progress-bar">
+              <div class="html">
+                  <span>95%</span>
+              </div>
+          </div>
+          <h2>CSS</h2>
+          <div class="progress-bar">
+              <div class="css">
+                  <span>94%</span>
+              </div>
+          </div>
+          <h2>JavaScript</h2>
+          <div class="progress-bar">
+              <div class="javascript">
+                  <span>85%</span>
+              </div>
+          </div>
+          <h2>ReactJs</h2>
+          <div class="progress-bar">
+              <div class="reactjs">
+                  <span>70%</span>
+              </div>
+          </div>
+          <h2>Python</h2>
+          <div class="progress-bar">
+              <div class="javascript">
+                  <span>85%</span>
+              </div>
+          </div>
+          <h2>C</h2>
+          <div class="progress-bar">
+              <div class="css">
+                  <span>94%</span>
+              </div>
+          </div>
+          <h2>C++</h2>
+          <div class="progress-bar">
+              <div class="html">
+                  <span>95%</span>
+              </div>
+          </div>
+          
+        </div>
+        <div class="skill-set">
+          
+          <div class="skill">
+            <div class="outer">
+              <div class="inner">
+                <div id="number">0</div>
+              </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+              <defs>
+                
+                <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#0000FF" />
+                  <stop offset="100%" stop-color="#87CEFA" />
+                </linearGradient>
+              </defs>
+              <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+            
+          </div>
+          <div class="profile-container">
+            <div class="codechef">
+              <h2>CodeChef ⭐️ ⭐️ ⭐️</h2>
+              <a class="btn btn-color-2" href="https://www.codechef.com/users/pri_tam" target="_blank">
+                View Profile
+              </a>
+            </div>
+            <div class="hackerrank">
+              <h2>HackerRank (c++) ⭐️ ⭐️ ⭐️ ⭐️</h2>
+              <a class="btn btn-color-2" href="https://www.hackerrank.com/em_pritamkr" target="_blank">
+                View Profile
+              </a>
+            </div>
+            <div class="codingninjas">
+              <h2>Coding Ninjas</h2>
+              <a class="btn btn-color-2" href="https://www.codingninjas.com/profile/pri_tam" target="_blank">
+                View Profile
+              </a>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'" />
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Innogen</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/01pritam/Innogen.git'">
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Web-Scrapper</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/01pritam/Web-Scrapper.git'">
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-3.jpeg" alt="Project 3" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Keeper</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/01pritam/Keeper.git'">
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'" />
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:em.pritamkr@gmail.com">em.pritamkr@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/pritam-k/" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169;  Pritam. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
